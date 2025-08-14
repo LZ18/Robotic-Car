@@ -1,7 +1,5 @@
 /**
  * File: tBB_Joystick_Base_Code.ino
- * Author: Matthew Allwright, theBasicBot
- * Copyright: 2023
  *
  * Description:
  * This file serves as an example for robots controlled by theBasicBot's ESP32-based controller.
@@ -60,3 +58,4 @@ void loop() {
   controlAutonomous(controller);
   
 }
+
