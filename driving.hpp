@@ -1,8 +1,6 @@
 #pragma once
 /**
  * File: driving.hpp
- * Author: Matthew Allwright, theBasicBot
- * Copyright: 2023
  *
  * Description:
  * This file contains functions to map a controller's joystick(s) for driving the Basic Bot.
@@ -158,3 +156,4 @@ void turnLeft() {
   setLeftMotor(100);
   setRightMotor(-100);
 }
+
