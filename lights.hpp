@@ -1,8 +1,6 @@
 #pragma once
 /**
  * File: lights.hpp
- * Author: Matthew Allwright, theBasicBot
- * Copyright: 2023
  *
  * Description:
  * This file contains functions to control both the arm and paddle servos of the robot.
@@ -67,3 +65,4 @@ void controlLights(const Controller& aController) {
     wasToggleBtnPressed = false;
   }
 }
+
