@@ -1,8 +1,6 @@
 #pragma once
 /**
  * File: servo_control.hpp
- * Author: Matthew Allwright, theBasicBot
- * Copyright: 2023
  *
  * Description:
  * This file contains functions to control 2 servo motors.
@@ -83,4 +81,5 @@ void controlServo2(const Controller& aController) {
   }
   servo2.write(servo2Pos);
 }
+
 
