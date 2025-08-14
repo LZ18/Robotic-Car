@@ -1,8 +1,6 @@
 #pragma once
 /**
  * File: controller_handling.hpp
- * Author: Matthew Allwright, theBasicBot
- * Copyright: 2023
  *
  * Description:
  * This file contains the class definition of a controller object, and defines the methods to handle
@@ -139,3 +137,4 @@ class Controller {
     }
   }
 };
+
