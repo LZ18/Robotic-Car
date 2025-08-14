@@ -1,8 +1,6 @@
 #pragma once
 /**
  * File: motor_control.hpp
- * Author: Matthew Allwright, theBasicBot
- * Copyright: 2023
  *
  * Description:
  * This file contains constants and functions for controlling motors on the robot.
@@ -81,3 +79,4 @@ void setRightMotor(const int aValue) {
     analogWrite(kRightWheel_Backwards, 0);
   }
 }
+
